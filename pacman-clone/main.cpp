@@ -528,5 +528,315 @@ void translatePacBuddy()
 
 	if (deltax == 270 && deltay == -360)
 		pelletOn[16] = 1;
+	
+	if (deltax == 180 && deltay == -360)
+		pelletOn[17] = 1;
 
+	if (deltax == 90 && deltay == -360)
+		pelletOn[18] = 1;
+
+	if (deltax == 0 && deltay == -360)
+		pelletOn[19] = 1;
+
+	if (deltax == -90 && deltay == -360)
+		pelletOn[20] = 1;
+
+	if (deltax == -180 && deltay == -360)
+		pelletOn[21] = 1;
+
+	if (deltax == -270 && deltay == -360)
+		pelletOn[22] = 1;
+
+	if (deltax == -360 && deltay == -360)
+		pelletOn[23] = 1;
+
+	if (deltax == -360 && deltay == -270)
+		pelletOn[24] = 1;
+
+	if (deltax == -360 && deltay == -180)
+		pelletOn[25] = 1;
+
+	if (deltax == -360 && deltay == -90)
+		pelletOn[26] = 1;
+
+	if (deltax == -360 && deltay == 0)
+		pelletOn[27] = 1;
+
+	if (deltax == -360 && deltay == 90)
+		pelletOn[28] = 1;
+
+	if (deltax == -360 && deltay == 180)
+		pelletOn[29] = 1;
+
+	if (deltax == -270 && deltay == 180)
+		pelletOn[30] = 1;
+
+	if (deltax == -180 && deltay == 180)
+		pelletOn[31] = 1;
+
+	if (deltax == -180 && deltay == 90)
+		pelletOn[32] = 1;
+
+	if (deltax == -180 && deltay == 0)
+		pelletOn[33] = 1;
+
+	if (deltax == -180 && deltay == -90)
+		pelletOn[34] = 1;
+
+	if (deltax == -180 && deltay == -180)
+		pelletOn[35] = 1;
+
+	if (deltax == -90 && deltay == -180)
+		pelletOn[36] = 1;
+
+	if (deltax == 0 && deltay == -180)
+		pelletOn[37] = 1;
+
+	if (deltax == 90 && deltay == -180)
+		pelletOn[38] = 1;
+
+	if (deltax == 180 && deltay == -180)
+		pelletOn[39] = 1;
+
+	if (deltax == 180 && deltay == -90)
+		pelletOn[40] = 1;
+
+	if (deltax == 180 && deltay == 0)
+		pelletOn[41] = 1;
+
+	if (deltax == 180 && deltay == 0)
+		pelletOn[41] = 1;
+
+	if (deltax == 90 && deltay == 0)
+		pelletOn[42] = 1;
+
+	if (pelletOn[0] == 0)
+		draw_Pellet(7, 0, 90);
+
+	if (pelletOn[1] == 0)
+		draw_Pellet(7, 0, 180);
+
+	if (pelletOn[2] == 0)
+		draw_Pellet(7, 0, 270);
+
+	if (pelletOn[3] == 0)
+		draw_Pellet(7, 0, 360);
+
+	if (pelletOn[4] == 0)
+		draw_Pellet(7, 90, 360);
+
+	if (pelletOn[5] == 0)
+		draw_Pellet(7, 180, 360);
+
+	if (pelletOn[6] == 0)
+		draw_Pellet(7, 270, 360);
+
+	if (pelletOn[7] == 0)
+		draw_Pellet(7, 360, 360);
+
+	if (pelletOn[8] == 0)
+		draw_Pellet(7, 360, 270);
+
+	if (pelletOn[9] == 0)
+		draw_Pellet(7, 360, 180);
+
+	if (pelletOn[10] == 0)
+		draw_Pellet(7, 360, 90);
+
+	if (pelletOn[11] == 0)
+		draw_Pellet(7, 360, 0);
+
+	if (pelletOn[12] == 0)
+		draw_Pellet(7, 360, -90);
+
+	if (pelletOn[13] == 0)
+		draw_Pellet(7, 360, -180);
+
+	if (pelletOn[14] == 0)
+		draw_Pellet(7, 360, -270);
+
+	if (pelletOn[15] == 0)
+		draw_Pellet(7, 360, -360);
+
+	if (pelletOn[16] == 0)
+		draw_Pellet(7, 270, -360);
+
+	if (pelletOn[17] == 0)
+		draw_Pellet(7, 180, -360);
+
+	if (pelletOn[18] == 0)
+		draw_Pellet(7, 90, -360);
+
+	if (pelletOn[19] == 0)
+		draw_Pellet(7, 0, -360);
+
+	if (pelletOn[20] == 0)
+		draw_Pellet(7, -90, -360);
+
+	if (pelletOn[21] == 0)
+		draw_Pellet(7, -180, -360);
+
+	if (pelletOn[22] == 0)
+		draw_Pellet(7, -270, -360);
+
+	if (pelletOn[23] == 0)
+		draw_Pellet(7, -360, -360);
+
+	if (pelletOn[24] == 0)
+		draw_Pellet(7, -360, -270);
+
+	if (pelletOn[23] == 0)
+		draw_Pellet(7, -360, -360);
+
+	if (pelletOn[24] == 0)
+		draw_Pellet(7, -360, -270);
+
+	if (pelletOn[25] == 0)
+		draw_Pellet(7, -360, -180);
+
+	if (pelletOn[26] == 0)
+		draw_Pellet(7, -360, -90);
+
+	if (pelletOn[27] == 0)
+		draw_Pellet(7, -360, 0);
+
+	if (pelletOn[28] == 0)
+		draw_Pellet(7, -360, 90);
+
+	if (pelletOn[29] == 0)
+		draw_Pellet(7, -360, 180);
+
+	if (pelletOn[30] == 0)
+		draw_Pellet(7, -270, -180);
+
+	if (pelletOn[31] == 0)
+		draw_Pellet(7, -180, 180);
+
+	if (pelletOn[32] == 0)
+		draw_Pellet(7, -180, 90);
+
+	if (pelletOn[33] == 0)
+		draw_Pellet(7, -180, 0);
+
+	if (pelletOn[34] == 0)
+		draw_Pellet(7, -180, -90);
+
+	if (pelletOn[35] == 0)
+		draw_Pellet(7, -180, -180);
+
+	if (pelletOn[36] == 0)
+		draw_Pellet(7, -90, -180);
+
+	if (pelletOn[37] == 0)
+		draw_Pellet(7, 0, -180);
+
+	if (pelletOn[38] == 0)
+		draw_Pellet(7, 90, -180);
+
+	if (pelletOn[39] == 0)
+		draw_Pellet(7, 180, -180);
+
+	if (pelletOn[40] == 0)
+		draw_Pellet(7, 180, -90);
+
+	if (pelletOn[41] == 0)
+		draw_Pellet(7, 180, 0);
+
+	if (pelletOn[42] == 0)
+		draw_Pellet(7, 90, 0);
+
+	draw_Maze();
+	draw_Button();
+	glutSwapBuffers();
+
+	if (mouthSize > 0.07)
+	{
+		mouthSize -= 0.01;
+	}
+	else
+	{
+		mouthSize = 0.7;
+	}
 }
+void handleButton(int button, int state, int x, int y)
+{
+	index = menuindex(x, y);
+	if (button == GLUT_LEFT_BUTTON)
+	{
+		if (state == GLUT_DOWN && (index == 1 || index == 2 || index == 3 || index == 4))
+		{
+			glutIdleFunc(translatePacBuddy);
+		}
+		if (state == GLUT_UP)
+		{
+			glutIdleFunc(NULL);
+		}
+	}
+	glutSwapBuffers();
+}
+
+void display()
+{
+	glClear(GL_COLOR_BUFFER_BIT);
+
+	draw_PacBuddy();
+
+	draw_Pellet(7, 0, 90);
+	draw_Pellet(7, 0, 180);
+	draw_Pellet(7, 0, 270);
+	draw_Pellet(7, 0, 360);
+	draw_Pellet(7, 90, 360);
+	draw_Pellet(7, 180, 360);
+	draw_Pellet(7, 360, 360);
+	draw_Pellet(7, 360, 270);
+	draw_Pellet(7, 360, 180);
+	draw_Pellet(7, 360, 90);
+	draw_Pellet(7, 360, 0);
+	draw_Pellet(7, 360, -90);
+	draw_Pellet(7, 360, -180);
+	draw_Pellet(7, 360, -270);
+	draw_Pellet(7, 360, -360);
+	draw_Pellet(7, 270, -360);
+	draw_Pellet(7, 180, -360);
+	draw_Pellet(7, 90, -360);
+	draw_Pellet(7, 0, -360);
+	draw_Pellet(7, -90, -360);
+	draw_Pellet(7, -270, -360);
+	draw_Pellet(7, -360, -360);
+	draw_Pellet(7, -360, -270);
+	draw_Pellet(7, -360, -180);
+	draw_Pellet(7, -360, -90);
+	draw_Pellet(7, -360, 0);
+	draw_Pellet(7, -360, 90);
+	draw_Pellet(7, -360, 180);
+	draw_Pellet(7, -270, 180);
+	draw_Pellet(7, -180, 180);
+	draw_Pellet(7, -180, 90);
+	draw_Pellet(7, -180, 0);
+	draw_Pellet(7, -180, -90);
+	draw_Pellet(7, -180, -180);
+	draw_Pellet(7, -90, -180);
+	draw_Pellet(7, 0, -180);
+	draw_Pellet(7, 90, -180);
+	draw_Pellet(7, 180, -180);
+	draw_Pellet(7, 180, -90);
+	draw_Pellet(7, 180, 0);
+	draw_Pellet(7, 90, 0);
+
+	draw_Maze();
+	draw_Button();
+	glutSwapBuffers();
+
+	return;
+}
+
+void initialize()
+{
+	glClearColor(0, 0, 0, 0);
+	glMatrixMode(GL_PROJECTION);
+	glLoadIdentity();
+	gluOrtho2D(-500, 500, -500, 500);
+
+	return;
+}
+
